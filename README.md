@@ -16,8 +16,27 @@ Clone this project to your Local Environment
 2. <code>Composer Install</code>
  <pre><code>composer install</code></pre>
 
-3. Run Artisan<code>Migrations</code>
+3. <code>Install Node Dependancies</code>
+ <pre><code>npm install -D</code></pre>
+
+4. <code>Create Environment File</code>
+ <pre><code>cp .env.example .env</code></pre>
+
+5. <code>Configure Database Settings inside environment file by setting</code>
+ <pre><code>
+ DB_CONNECTION=mysql
+ DB_HOST=127.0.0.1
+ DB_PORT=3306
+ DB_DATABASE=database_name
+ DB_USERNAME=database_user
+ DB_PASSWORD=database_password
+ </code></pre>
+
+6. Run Artisan<code>Migrations</code>
  <pre><code>php artisan migrate</code></pre>
+
+7. Generate app Key
+ <pre><code>php artisan key:generate</code></pre>
 
 ## Our Website
 
