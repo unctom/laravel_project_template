@@ -1,9 +1,10 @@
 # Laravel with Tailwind, Preline and Custom Fonts
 
 This Project is simply a get ahead setup of Tailwind, Preline and some fonts that are added this includes;
--- Montserrat
--- Lato
--- Poppins
+
+-   Montserrat
+-   Lato
+-   Poppins
 
 ## Guide
 
@@ -20,4 +21,4 @@ Clone this project to your Local Environment
 
 ## Our Website
 
-Visit our website for more solutions <a href://digitalgearjunction.africa>DGJ</a>
+Visit our website for more solutions <a href="https://digitalgearjunction.africa">DGJ</a>
